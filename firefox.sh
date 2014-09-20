@@ -1,3 +1,4 @@
+#!/bin/bash
 ID=$(sudo docker run --privileged -d -p 22 mdouchement/docker-firefox:32.0 /usr/sbin/sshd -D)
 ID=${ID:0:12}
 echo id: $ID
