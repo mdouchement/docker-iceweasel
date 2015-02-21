@@ -1,4 +1,3 @@
-docker-firefox
-==============
+# docker-iceweasel
 
-Firefox Dockerfile for automated builds
+Iceweasel Dockerfile for automated builds
